@@ -104,11 +104,17 @@ body {
     height: auto;
     display: block;
 }
-
+.image-row{
+    display: none;
+}
 /* Mobile responsive: ảnh xếp dọc */
 @media (max-width: 768px) {
     .image-row {
         flex-direction: column;
+        display: block;
+    }
+    .img-3-web{
+        display: none;
     }
 
     .image-row img {
