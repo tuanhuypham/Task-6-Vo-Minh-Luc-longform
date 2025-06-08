@@ -11,17 +11,17 @@
     display: block;
 }
 .sc-3{
-    padding: 0 !important;
+    padding: 0;
 }
 .container-md{
     max-width: 992px !important;
 }
 .text-sc-4 p{
-    font-size: 25px;
+
+    color: #6c6a6a !important;
+    padding-bottom: 10px;
 }
-/*.img-sc-4 {*/
-/*    width: 790px !important;*/
-/*}*/
+
 .text-sc-4{
     padding-bottom: 30px;
     padding-top: 30px;
@@ -36,7 +36,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Serif', serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     background-color: #cadcdc;
     color: #111;
@@ -58,7 +58,8 @@ body {
     font-family: 'Noto Serif', serif;
     text-align: justify;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* === Câu hỏi === */
@@ -75,8 +76,8 @@ body {
 /* === Credit cuối bài === */
 .sc-4 p {
     font-family: 'Inter Tight', sans-serif;
-    font-size: 16px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 10px;
     text-transform: uppercase;
     margin: 8px 0;
     text-align: center;
@@ -88,7 +89,7 @@ body {
 }
 .sc-4 p strong {
     font-weight: 900;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
@@ -120,7 +121,6 @@ body {
     .image-row img {
         width: 100%;
     }
-
     .container, .container-xl {
 
     }
